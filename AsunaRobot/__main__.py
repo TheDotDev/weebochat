@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello [🌺](https://telegra.ph/file/d0e9411554f6ff3b32776.jpg) My Name Is *🌟Chizuru Mizuhara🌟*
+Hello [🌺](https://telegra.ph/file/4639775f9a5cfe37d7f3d.jpg) My Name Is *🌟Weebo🌟*
 I am a powerful group management bot with many features.
 I specialize in managing anime and similarly themed groups.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
@@ -86,28 +86,28 @@ Find all music commands by sending » /musichelp
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD MIZUHARA TO YOUR GROUP ➕️",url="t.me/chizuru_mizuhara_robot?startgroup=true"),
+            text="➕️ ADD Weebo TO YOUR GROUP ➕️",url="t.me/weebochatbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📚 HELP & COMMANDS", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="🌟ANIME FANS CLUB🌟", url="https://t.me/animefansclubchat"),
+            text="🌟JOIN OUR GROUP🌟", url="https://t.me/WEEBOCHAT"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📮 UPDATE CHANNEL", url="https://t.me/Mizuhara_Update"),
+            text="📮 UPDATE CHANNEL", url="https://t.me/WEEBOBOTLOG"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 LOGS", url="https://t.me/MizuharaLogUpdate"),
+            text="📑 LOGS", url="https://t.me/WEEBOBOTLOG"),
           
 
 
 InlineKeyboardButton(
-            text="🌟SUPPORT🌟", url="https://t.me/mizuhara_help_support"
+            text="🌟SUPPORT🌟", url="https://t.me/WEEBOCHAT"
         ),
 
     ],
@@ -115,21 +115,21 @@ InlineKeyboardButton(
 
 group_buttons = [
     [     InlineKeyboardButton(
-            text="××SUPPORT××", url="https://t.me/mizuhara_help_support"),
+            text="××SUPPORT××", url="https://t.me/INSANEMONARCH"),
     
         InlineKeyboardButton(
-            text="××UPDATES××", url="https://t.me/Mizuhara_Update"),
+            text="××UPDATES××", url="https://t.me/WEEBOBOTLOGS"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Mizuhara 🛠️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
+`Hi.. I'm` [WEEBO 🛠️]("https://telegra.ph/file/8cab4bb122cf76702b06d.jpg") 
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
-ASUNA_IMG = "https://telegra.ph/file/75f155bb315b0557fe1b4.jpg"
-MIZUHARA_IMG = "https://telegra.ph/file/e76bf9e31083a44248194.mp4"
+ASUNA_IMG = "https://telegra.ph/file/171e75296aa3da1984cca.mp4"
+MIZUHARA_IMG = "https://telegra.ph/file/171e75296aa3da1984cca.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @callme_pro \
