@@ -45,6 +45,11 @@
          "required": true,
          "value": "1606221784"
       },
+      "DATABASE_URL": {
+         "description": "Get Your elephansql from ElephanSQL.com.",
+         "required": true,
+         "value": ""   
+      },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
