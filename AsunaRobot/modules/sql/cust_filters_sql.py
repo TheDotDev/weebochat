@@ -4,6 +4,7 @@ from sqlalchemy import Column, String, UnicodeText, Boolean, Integer, distinct, 
 
 from AsunaRobot.modules.helper_funcs.msg_types import Types
 from AsunaRobot.modules.sql import BASE, SESSION
+from sqlalchemy.sql.sqltypes import BigInteger
 
 
 class CustomFilters(BASE):
