@@ -1,8 +1,9 @@
 import threading
 
 from sqlalchemy import String, Column, Integer, UnicodeText
-
 from AsunaRobot.modules.sql import SESSION, BASE
+from sqlalchemy.sql.sqltypes import BigInteger
+
 
 DEF_COUNT = 1
 DEF_LIMIT = 0
@@ -13,7 +14,7 @@ class FloodControl(BASE):
     __tablename__ = "antiflood"
     chat_id = Column(String(14), primary_key=True)
     user_id = Column(Integer)
-    count = Column(Integer, default=DEF_COUNT)
+    count = Column(BigInteger, default=DEF_COUNT)
     limit = Column(Integer, default=DEF_LIMIT)
 
     def __init__(self, chat_id):
